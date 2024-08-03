@@ -18,7 +18,7 @@ This project uses the YOLOv10 object detection model and the DepthAnything v2 de
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/object-size-distance-estimation.git
+    git clone https://github.com/Tayyab-Ahmad-44/object-size-distance-estimation.git
     cd object-size-distance-estimation
     ```
 
