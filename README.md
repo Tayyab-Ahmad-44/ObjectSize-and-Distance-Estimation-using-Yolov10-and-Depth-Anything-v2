@@ -50,3 +50,18 @@ First, you need to calibrate your camera:
 Run the main script to start the video capture and object detection:
 ```bash
 python main.py
+```
+
+## Configuration
+
+The configuration for the YOLO and DepthAnything v2 models is specified within the script. You can adjust the following parameters as needed:
+
+- **YOLOv10 model path**: `models/yolov10n_finetuned.pt`
+- **DepthAnything v2 encoder**: `'vitl'` (Options: `'vits'`, `'vitb'`, `'vitl'`)
+- **Dataset**: `'hypersim'` (Options: `'hypersim'` for indoor, `'vkitti'` for outdoor)
+- **Max depth**: `20` (Options: `20` for indoor, `80` for outdoor)
+
+## Note
+
+For optimal performance, it is recommended to use a CUDA-compatible GPU as the process requires significant computational power.
+
