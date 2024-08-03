@@ -65,3 +65,14 @@ The configuration for the YOLO and DepthAnything v2 models is specified within t
 
 For optimal performance, it is recommended to use a CUDA-compatible GPU as the process requires significant computational power.
 
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## Contact
+For any questions or feedback, please contact tayyabuetm24@gmail.com
+
+
